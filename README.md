@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
+# Welcome To 9by5!
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Short Description 
+# IOS/Web Application that is fit for user's who wants to tap into a hybrid training
+- Hybrid training is the act or usage of combining strength training / running to improve strength and mobility
 
-## Get started
+# Who Is it For?
+- This Application is created for user who are beginners - advance who struggles to with fitness aspiration while working a 9 -5
+- It creates a sense a pride and acommplishment with a social aspect as a user at each level
 
-1. Install dependencies
+# How does the App Serve The User?
+- It gives a concept of each type of hybrid training splits from beginning to end
+- This Targets a sense of urgency with busy schedules, it adjust accompanly with the schedule that is right with the user's time
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+  # What kind of stack is use for this application ?
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+  - React Native Expo
+  - Ui/Ux Claude Visualization
+  - Javascript/ Go for the backend
+  - Auth0 Authentication
+  - Redis Cloud for Usage
+  - Jenkins for CI/CD
+  - Trivy / Zap For Scannage
 
-## Get a fresh project
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+    

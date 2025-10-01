@@ -1,24 +1,25 @@
+import { useRouter } from 'expo-router';
 import { StyleSheet, Text, View } from 'react-native';
-import Header from '../../components/header';
+import Header from '../../components/header.js';
 
-const App = () => {
-  // Handle button presses from the header component
+export default function Social() {
+  const router = useRouter();
+
   const handleHeaderButtonPress = (action) => {
     console.log(`${action} button pressed`);
     
-    // Add your navigation logic here based on the action
     switch(action) {
       case 'Log Run':
-        // navigation.navigate('LogRun');
+        router.push('/running');
         break;
       case 'Start Workout':
-        // navigation.navigate('StartWorkout');
+        router.push('/workout');
         break;
       case 'Social':
-        // navigation.navigate('Social');
+        router.push('/social');
         break;
       case 'Schedule':
-        // navigation.navigate('Schedule');
+        console.log('Schedule navigation');
         break;
       default:
         console.log('Unknown action:', action);
@@ -27,19 +28,17 @@ const App = () => {
 
   return (
     <View style={styles.container}>
-      {/* Header Component */}
       <Header onButtonPress={handleHeaderButtonPress} />
       
-      {/* Rest of your app content */}
       <View style={styles.content}>
-        <Text style={styles.title}>Welcome to Your Athlete App</Text>
+        <Text style={styles.title}>Social Feed</Text>
         <Text style={styles.paragraph}>
-          Your main app content goes here. The header above will automatically update based on the time of day and handle button presses through the handleHeaderButtonPress function.
+          Connect with friends, share workouts, and stay motivated together.
         </Text>
       </View>
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -60,5 +59,3 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
-
-export default App;
